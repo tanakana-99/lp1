@@ -13,6 +13,7 @@ a {
     text-decoration: none;
 }
 
+
 a:hover {
     opacity: 0.7;
 }
@@ -392,6 +393,7 @@ li {
 }
 
 @media (min-width: 768px) {
+
     .mv__inner__bottom__title,
     .mv__inner__bottom__title-02 {
         font-size: 3.1vw;
@@ -556,9 +558,11 @@ li {
     }
 }
 
-    .pc-reason01, .pc-reason02, .pc-reason03 {
-        width: 100%;
-    }
+.pc-reason01,
+.pc-reason02,
+.pc-reason03 {
+    width: 100%;
+}
 
 @media (min-width: 768px) {
     .reason__item:nth-child(2) {
@@ -1005,6 +1009,7 @@ table th {
 }
 
 @media (min-width: 768px) {
+
     table td,
     table th {
         font-size: 18px;
@@ -1116,7 +1121,7 @@ tbody td {
     }
 }
 
-.contact__box{
+.contact__box {
     display: flex;
     flex-direction: column;
 }
@@ -1131,7 +1136,8 @@ tbody td {
     }
 }
 
-.pc-qa, .pc-classroom {
+.pc-qa,
+.pc-classroom {
     width: 100%;
 }
 
