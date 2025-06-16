@@ -389,6 +389,7 @@ li {
 }
 
 @media (min-width: 768px) {
+
     .mv__inner__bottom__title,
     .mv__inner__bottom__title-02 {
         font-size: 3.1vw;
@@ -527,8 +528,10 @@ li {
 @media (min-width: 768px) {
     .reason__item {
         display: flex;
-        column-gap: 39px;
+        column-gap: 3.362%;
         margin-bottom: 47px;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -547,7 +550,7 @@ li {
     .reason__item img {
         width: 100%;
         max-width: 100%;
-        height: 100%;
+        height: auto;
     }
 }
 
@@ -1003,6 +1006,7 @@ table th {
 }
 
 @media (min-width: 768px) {
+
     table td,
     table th {
         font-size: 20px;
