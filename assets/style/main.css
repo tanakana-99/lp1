@@ -172,7 +172,7 @@ li {
 }
 
 
-.burger-menu__list li {
+.burger-menu__list li:not(:last-child) {
     padding: 20px 0;
     font-size: 18px;
     font-weight: 500;
